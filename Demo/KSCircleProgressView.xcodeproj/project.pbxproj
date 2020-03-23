@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DA735B24231F6B00D6258F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA735A24231F6B00D6258F /* AppDelegate.swift */; };
+		36DA735D24231F6B00D6258F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA735C24231F6B00D6258F /* SceneDelegate.swift */; };
+		36DA735F24231F6B00D6258F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA735E24231F6B00D6258F /* ViewController.swift */; };
+		36DA736224231F6B00D6258F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DA736024231F6B00D6258F /* Main.storyboard */; };
+		36DA736424231F6E00D6258F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36DA736324231F6E00D6258F /* Assets.xcassets */; };
+		36DA736724231F6E00D6258F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36DA736524231F6E00D6258F /* LaunchScreen.storyboard */; };
+		36DA737224231F6F00D6258F /* KSCircleProgressViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA737124231F6F00D6258F /* KSCircleProgressViewTests.swift */; };
+		36DA737D24231F6F00D6258F /* KSCircleProgressViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA737C24231F6F00D6258F /* KSCircleProgressViewUITests.swift */; };
+		36DA738C24231FFE00D6258F /* KSCircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA738B24231FFE00D6258F /* KSCircleProgressView.swift */; };
+		36DA738E2423227E00D6258F /* KSDownLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DA738D2423227D00D6258F /* KSDownLoadView.swift */; };
+		36DA73902423230A00D6258F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 36DA738F2423230A00D6258F /* Podfile */; };
+		C9592F8E6CB8DCC4273E6922 /* libPods-KSCircleProgressView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D3BACCEF57BCB3D3CBCDC8 /* libPods-KSCircleProgressView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36DA736E24231F6F00D6258F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DA734F24231F6B00D6258F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DA735624231F6B00D6258F;
+			remoteInfo = KSCircleProgressView;
+		};
+		36DA737924231F6F00D6258F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36DA734F24231F6B00D6258F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36DA735624231F6B00D6258F;
+			remoteInfo = KSCircleProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DA735724231F6B00D6258F /* KSCircleProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCircleProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA735A24231F6B00D6258F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36DA735C24231F6B00D6258F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36DA735E24231F6B00D6258F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36DA736124231F6B00D6258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36DA736324231F6E00D6258F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36DA736624231F6E00D6258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36DA736824231F6E00D6258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DA736D24231F6F00D6258F /* KSCircleProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSCircleProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA737124231F6F00D6258F /* KSCircleProgressViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSCircleProgressViewTests.swift; sourceTree = "<group>"; };
+		36DA737324231F6F00D6258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DA737824231F6F00D6258F /* KSCircleProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSCircleProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA737C24231F6F00D6258F /* KSCircleProgressViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSCircleProgressViewUITests.swift; sourceTree = "<group>"; };
+		36DA737E24231F6F00D6258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36DA738B24231FFE00D6258F /* KSCircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCircleProgressView.swift; sourceTree = "<group>"; };
+		36DA738D2423227D00D6258F /* KSDownLoadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSDownLoadView.swift; sourceTree = "<group>"; };
+		36DA738F2423230A00D6258F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7487922FC51CFFF55EC4BD7C /* Pods-KSCircleProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCircleProgressView.release.xcconfig"; path = "Target Support Files/Pods-KSCircleProgressView/Pods-KSCircleProgressView.release.xcconfig"; sourceTree = "<group>"; };
+		99D3BACCEF57BCB3D3CBCDC8 /* libPods-KSCircleProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KSCircleProgressView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2237811819C1645A514416D /* Pods-KSCircleProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KSCircleProgressView.debug.xcconfig"; path = "Target Support Files/Pods-KSCircleProgressView/Pods-KSCircleProgressView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36DA735424231F6B00D6258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9592F8E6CB8DCC4273E6922 /* libPods-KSCircleProgressView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA736A24231F6F00D6258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA737524231F6F00D6258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17502AFE0695B72011950942 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2237811819C1645A514416D /* Pods-KSCircleProgressView.debug.xcconfig */,
+				7487922FC51CFFF55EC4BD7C /* Pods-KSCircleProgressView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2380C3B9CEF8927314C67ACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D3BACCEF57BCB3D3CBCDC8 /* libPods-KSCircleProgressView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36DA734E24231F6B00D6258F = {
+			isa = PBXGroup;
+			children = (
+				36DA735924231F6B00D6258F /* KSCircleProgressView */,
+				36DA738F2423230A00D6258F /* Podfile */,
+				36DA737024231F6F00D6258F /* KSCircleProgressViewTests */,
+				36DA737B24231F6F00D6258F /* KSCircleProgressViewUITests */,
+				36DA735824231F6B00D6258F /* Products */,
+				17502AFE0695B72011950942 /* Pods */,
+				2380C3B9CEF8927314C67ACB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36DA735824231F6B00D6258F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36DA735724231F6B00D6258F /* KSCircleProgressView.app */,
+				36DA736D24231F6F00D6258F /* KSCircleProgressViewTests.xctest */,
+				36DA737824231F6F00D6258F /* KSCircleProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36DA735924231F6B00D6258F /* KSCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				36DA738A24231FFE00D6258F /* CircleProgress */,
+				36DA735A24231F6B00D6258F /* AppDelegate.swift */,
+				36DA735C24231F6B00D6258F /* SceneDelegate.swift */,
+				36DA735E24231F6B00D6258F /* ViewController.swift */,
+				36DA738D2423227D00D6258F /* KSDownLoadView.swift */,
+				36DA736024231F6B00D6258F /* Main.storyboard */,
+				36DA736324231F6E00D6258F /* Assets.xcassets */,
+				36DA736524231F6E00D6258F /* LaunchScreen.storyboard */,
+				36DA736824231F6E00D6258F /* Info.plist */,
+			);
+			path = KSCircleProgressView;
+			sourceTree = "<group>";
+		};
+		36DA737024231F6F00D6258F /* KSCircleProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				36DA737124231F6F00D6258F /* KSCircleProgressViewTests.swift */,
+				36DA737324231F6F00D6258F /* Info.plist */,
+			);
+			path = KSCircleProgressViewTests;
+			sourceTree = "<group>";
+		};
+		36DA737B24231F6F00D6258F /* KSCircleProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36DA737C24231F6F00D6258F /* KSCircleProgressViewUITests.swift */,
+				36DA737E24231F6F00D6258F /* Info.plist */,
+			);
+			path = KSCircleProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		36DA738A24231FFE00D6258F /* CircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				36DA738B24231FFE00D6258F /* KSCircleProgressView.swift */,
+			);
+			name = CircleProgress;
+			path = ../../CircleProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36DA735624231F6B00D6258F /* KSCircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA738124231F6F00D6258F /* Build configuration list for PBXNativeTarget "KSCircleProgressView" */;
+			buildPhases = (
+				9AA110579E38489C81030676 /* [CP] Check Pods Manifest.lock */,
+				36DA735324231F6B00D6258F /* Sources */,
+				36DA735424231F6B00D6258F /* Frameworks */,
+				36DA735524231F6B00D6258F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSCircleProgressView;
+			productName = KSCircleProgressView;
+			productReference = 36DA735724231F6B00D6258F /* KSCircleProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36DA736C24231F6F00D6258F /* KSCircleProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA738424231F6F00D6258F /* Build configuration list for PBXNativeTarget "KSCircleProgressViewTests" */;
+			buildPhases = (
+				36DA736924231F6F00D6258F /* Sources */,
+				36DA736A24231F6F00D6258F /* Frameworks */,
+				36DA736B24231F6F00D6258F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36DA736F24231F6F00D6258F /* PBXTargetDependency */,
+			);
+			name = KSCircleProgressViewTests;
+			productName = KSCircleProgressViewTests;
+			productReference = 36DA736D24231F6F00D6258F /* KSCircleProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36DA737724231F6F00D6258F /* KSCircleProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA738724231F6F00D6258F /* Build configuration list for PBXNativeTarget "KSCircleProgressViewUITests" */;
+			buildPhases = (
+				36DA737424231F6F00D6258F /* Sources */,
+				36DA737524231F6F00D6258F /* Frameworks */,
+				36DA737624231F6F00D6258F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36DA737A24231F6F00D6258F /* PBXTargetDependency */,
+			);
+			name = KSCircleProgressViewUITests;
+			productName = KSCircleProgressViewUITests;
+			productReference = 36DA737824231F6F00D6258F /* KSCircleProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36DA734F24231F6B00D6258F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "zhu hao";
+				TargetAttributes = {
+					36DA735624231F6B00D6258F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					36DA736C24231F6F00D6258F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 36DA735624231F6B00D6258F;
+					};
+					36DA737724231F6F00D6258F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 36DA735624231F6B00D6258F;
+					};
+				};
+			};
+			buildConfigurationList = 36DA735224231F6B00D6258F /* Build configuration list for PBXProject "KSCircleProgressView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36DA734E24231F6B00D6258F;
+			productRefGroup = 36DA735824231F6B00D6258F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36DA735624231F6B00D6258F /* KSCircleProgressView */,
+				36DA736C24231F6F00D6258F /* KSCircleProgressViewTests */,
+				36DA737724231F6F00D6258F /* KSCircleProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36DA735524231F6B00D6258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA736724231F6E00D6258F /* LaunchScreen.storyboard in Resources */,
+				36DA736424231F6E00D6258F /* Assets.xcassets in Resources */,
+				36DA73902423230A00D6258F /* Podfile in Resources */,
+				36DA736224231F6B00D6258F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA736B24231F6F00D6258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA737624231F6F00D6258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AA110579E38489C81030676 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KSCircleProgressView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36DA735324231F6B00D6258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA735F24231F6B00D6258F /* ViewController.swift in Sources */,
+				36DA738C24231FFE00D6258F /* KSCircleProgressView.swift in Sources */,
+				36DA735B24231F6B00D6258F /* AppDelegate.swift in Sources */,
+				36DA738E2423227E00D6258F /* KSDownLoadView.swift in Sources */,
+				36DA735D24231F6B00D6258F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA736924231F6F00D6258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA737224231F6F00D6258F /* KSCircleProgressViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA737424231F6F00D6258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA737D24231F6F00D6258F /* KSCircleProgressViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36DA736F24231F6F00D6258F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DA735624231F6B00D6258F /* KSCircleProgressView */;
+			targetProxy = 36DA736E24231F6F00D6258F /* PBXContainerItemProxy */;
+		};
+		36DA737A24231F6F00D6258F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36DA735624231F6B00D6258F /* KSCircleProgressView */;
+			targetProxy = 36DA737924231F6F00D6258F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36DA736024231F6B00D6258F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DA736124231F6B00D6258F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36DA736524231F6E00D6258F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36DA736624231F6E00D6258F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36DA737F24231F6F00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36DA738024231F6F00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36DA738224231F6F00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2237811819C1645A514416D /* Pods-KSCircleProgressView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KSJGS.KSCircleProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36DA738324231F6F00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7487922FC51CFFF55EC4BD7C /* Pods-KSCircleProgressView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KSJGS.KSCircleProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36DA738524231F6F00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KSJGS.KSCircleProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSCircleProgressView.app/KSCircleProgressView";
+			};
+			name = Debug;
+		};
+		36DA738624231F6F00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KSJGS.KSCircleProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSCircleProgressView.app/KSCircleProgressView";
+			};
+			name = Release;
+		};
+		36DA738824231F6F00D6258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KSJGS.KSCircleProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSCircleProgressView;
+			};
+			name = Debug;
+		};
+		36DA738924231F6F00D6258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KSCircleProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KSJGS.KSCircleProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KSCircleProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36DA735224231F6B00D6258F /* Build configuration list for PBXProject "KSCircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA737F24231F6F00D6258F /* Debug */,
+				36DA738024231F6F00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DA738124231F6F00D6258F /* Build configuration list for PBXNativeTarget "KSCircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA738224231F6F00D6258F /* Debug */,
+				36DA738324231F6F00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DA738424231F6F00D6258F /* Build configuration list for PBXNativeTarget "KSCircleProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA738524231F6F00D6258F /* Debug */,
+				36DA738624231F6F00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DA738724231F6F00D6258F /* Build configuration list for PBXNativeTarget "KSCircleProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA738824231F6F00D6258F /* Debug */,
+				36DA738924231F6F00D6258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36DA734F24231F6B00D6258F /* Project object */;
+}
