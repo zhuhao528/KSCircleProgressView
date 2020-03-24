@@ -17,7 +17,7 @@ KSCircleProgressView is available through [CocoaPods](https://cocoapods.org). To
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'KSCircleProgressView'
+pod 'KSCircleProgressView', :source => 'https://github.com/zhuhao528/KSCircleProgressView.git'
 ```
 
 ## Author
