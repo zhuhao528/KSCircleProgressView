@@ -1,0 +1,6 @@
+framework module Pods_KSCircleProgressView_Example {
+  umbrella header "Pods-KSCircleProgressView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

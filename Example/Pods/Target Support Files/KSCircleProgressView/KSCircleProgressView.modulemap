@@ -1,0 +1,6 @@
+framework module KSCircleProgressView {
+  umbrella header "KSCircleProgressView-umbrella.h"
+
+  export *
+  module * { export * }
+}
